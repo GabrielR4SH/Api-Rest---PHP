@@ -8,11 +8,11 @@ class UserController extends BaseController
         $requestMethod = $_SERVER["REQUEST_METHOD"];
         $stringParamsArray = $this->getStringParams();
 
-        if(strtoupper($requestMethod) == "GET"){
+        if(strtoupper($requestMethod) == 'GET'){
             try{
                 $userModel = new UserModel();
                 
-                $initLimit = 1;
+                $initLimit = 10;
                 if(isset($stringParamsArray['limit']) && $stringParamsArray['limit']){
                     $initLimit = $stringParamsArray['limit'];
                 }

@@ -1,0 +1,22 @@
+[
+    {
+        "user_id":1,
+        "user_name":"Gabriel",
+        "user_email":"gaexample@email.com",
+        "user_status":0
+    },
+
+    {
+        "user_id":2,
+        "user_name":"Pedro",
+        "user_email":"peexample@email.com",
+        "user_status":1
+    },
+
+    {
+        "user_id":3,
+        "user_name":"Mary",
+        "user_email":"maryexample@email.com",
+        "user_status":1
+    }
+]
